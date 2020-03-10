@@ -2,7 +2,7 @@ package com.anfegagra.di.app.models.service;
 
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class MiServicioImpl2 implements MiServicio {
 
 	@Override

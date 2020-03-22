@@ -1,4 +1,4 @@
-package com.anfegagra.di.app.models.service;
+package com.anfegagra.di.app.domain.service;
 
 public interface MiServicio {
 

@@ -1,8 +1,8 @@
 package com.anfegagra.di.app.config;
 
-import com.anfegagra.di.app.models.service.MiServicio;
-import com.anfegagra.di.app.models.service.MiServicioImpl;
-import com.anfegagra.di.app.models.service.MiServicioImpl2;
+import com.anfegagra.di.app.domain.service.MiServicio;
+import com.anfegagra.di.app.domain.service.MiServicioImpl;
+import com.anfegagra.di.app.domain.service.MiServicioImpl2;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

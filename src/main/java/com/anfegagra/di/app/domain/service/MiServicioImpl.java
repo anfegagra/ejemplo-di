@@ -1,7 +1,4 @@
-package com.anfegagra.di.app.models.service;
-
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Service;
+package com.anfegagra.di.app.domain.service;
 
 //@Primary
 //@Service

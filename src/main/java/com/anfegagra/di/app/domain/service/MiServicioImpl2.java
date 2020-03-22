@@ -1,6 +1,4 @@
-package com.anfegagra.di.app.models.service;
-
-import org.springframework.stereotype.Service;
+package com.anfegagra.di.app.domain.service;
 
 //@Service
 public class MiServicioImpl2 implements MiServicio {

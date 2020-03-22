@@ -1,6 +1,6 @@
 package com.anfegagra.di.app.controllers;
 
-import com.anfegagra.di.app.models.service.MiServicio;
+import com.anfegagra.di.app.domain.service.MiServicio;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

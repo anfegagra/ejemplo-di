@@ -26,7 +26,7 @@ public class AppConfig {
 	}
 
 	@Bean
-	public List<ItemFactura> registrarItems() {
+	public List<ItemFactura> registrarItemsUFC() {
 		Producto producto1 = new Producto("Buso UFC", 200000);
 		Producto producto2 = new Producto("Camiseta UFC", 90000);
 
@@ -34,6 +34,17 @@ public class AppConfig {
 		ItemFactura linea2 = new ItemFactura(producto2, 2);
 
 		return Arrays.asList(linea1, linea2);
+	}
 
+	@Primary
+	@Bean
+	public List<ItemFactura> registrarItemsFutbol() {
+		Producto producto1 = new Producto("Camiseta de Manchester United", 150000);
+		Producto producto2 = new Producto("Guayos Nike Tiempo", 290000);
+
+		ItemFactura linea1 = new ItemFactura(producto1, 1);
+		ItemFactura linea2 = new ItemFactura(producto2, 1);
+
+		return Arrays.asList(linea1, linea2);
 	}
 }
